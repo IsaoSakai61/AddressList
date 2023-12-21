@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+table {
+  border-collapse: collapse;
+}
+.col_name {width: 100px;}
+.col_address {width: 500px;}
+.col_tel {width: 200px;}
+
+.col_title {
+    background-color:  #ddd;    /* 背景色指定 */
+}

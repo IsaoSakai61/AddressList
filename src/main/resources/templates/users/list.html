@@ -3,19 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Users List</title>
-<style>
-table {
-  border-collapse: collapse;
-}
-.col_name {width: 100px;}
-.col_address {width: 500px;}
-.col_tel {width: 200px;}
-</style>
+<link th:href="@{/css/list.css}" rel="stylesheet" type="text/css"/>
+
 </head>
 <body>
 <h1>住所録</h1>
 <table border="1">
-    <tr>
+    <tr class="col_title">
         <th class="col_name">名前</th>
         <th class="col_address">住所</th>
         <th class="col_tel">電話番号</th>
